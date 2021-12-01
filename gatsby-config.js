@@ -3,5 +3,12 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "boilerplate",
   },
-  plugins: ["gatsby-plugin-sass",`gatsby-plugin-react-helmet`,'gatsby-plugin-postcss'],
+  plugins: ["gatsby-plugin-sass", `gatsby-plugin-react-helmet`,
+    {
+      resolve: 'gatsby-plugin-i18n',
+      options: {
+        langKeyDefault: 'en',
+        useLangKeyLayout: false
+      }
+    }],
 };

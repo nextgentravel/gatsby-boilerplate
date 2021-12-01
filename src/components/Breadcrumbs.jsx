@@ -1,10 +1,6 @@
 import React from 'react'
 
-interface Props {
-
-}
-
-const Breadcrumbs = (props: Props) => {
+const Breadcrumbs = () => {
     return (
         <div className="container pl-0">
             <nav aria-label="breadcrumb">

@@ -1,11 +1,7 @@
 import React from 'react'
 import Breadcrumbs from './Breadcrumbs'
 
-interface Props {
-    
-}
-
-const Header = (props: Props) => {
+const Header = () => {
     return (
         <header className="mb-0">
         <div className="container">

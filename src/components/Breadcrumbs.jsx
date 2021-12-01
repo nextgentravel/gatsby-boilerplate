@@ -7,7 +7,7 @@ const Breadcrumbs = () => {
                 <h2 className='sr-only'>You are here:</h2>
                 <ol className="breadcrumb">
                     <li className="breadcrumb-item"><a href='https://gcintranet.tpsgc-pwgsc.gc.ca/voyage-gc-travel/index-fra.html'>GC Travel</a></li>
-                    <li className="breadcrumb-item active" aria-current="page">Government of Canada travel calculator</li>
+                    <li className="breadcrumb-item active" aria-current="page">Title Goes Here</li>
                 </ol>
             </nav>
         </div>
